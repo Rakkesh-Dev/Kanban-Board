@@ -82,3 +82,49 @@ h1{
         margin-bottom: 20px;
     }
 }
+
+#taskForm{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#taskForm label{
+    color: #555;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#taskForm input{
+    margin-left: 10px;
+    border: 1px solid #d1d3d8;
+    border-radius: 4px;
+    padding: 12px;
+    text-align: center;
+    color: #555;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid rgb(143, 128, 199);
+    box-shadow: 0 2px 4px rgba(65, 64, 64, 0.504)
+}
+
+button{
+    border: none;
+    padding: 12px;
+    margin-left: 40px;
+    background-color: #bcbcbc;
+    border-radius: 4px;
+    color: #191919;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#resetBtn{
+    text-align: center;
+}
+

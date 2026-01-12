@@ -9,24 +9,25 @@
 <body>
     <div class="container">
         <h1>Simple Kanban Board</h1>
+
+        <form id="taskForm">
+            <label for="taskInput">Task</label>
+            <input id="taskInput" placeholder="Enter task..." required />
+            <button type="submit">Add</button>
+        </form>
+        <button id="resetBtn">Reset Board</button>
+
+
         <div class="board">
-            <!-- TO DO BOARD -->
-            <div class="list" id="list1">
+            <div class="list" id="todo">
                 <h2>To Do</h2>
-                <div class="card" draggable="true" id="card1">
-                    Wash dishes
-                </div>
-                <div class="card" draggable="true" id="card2">
-                    Buy groceries
-                </div>
             </div>
 
-            <div class="list" id="list2">
+            <div class="list" id="inprogress">
                 <h2>In Progress</h2>
-                <div class="card" id="card3" draggable="true">Learn to Code</div>
             </div>
 
-            <div class="list" id="list3">
+            <div class="list" id="done">
                 <h2>Done</h2>
             </div>
         </div>
